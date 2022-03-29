@@ -53,4 +53,13 @@ CREATE TABLE dept_emp (
   PRIMARY KEY (dept_no)
 );
 
+CREATE TABLE managers (
+  emp_no INT NOT NULL,
+  dept_no INT NOT NULL,
+  from_date DATE NOT NULL,
+  to_date DATE NOT NULL,
+  FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
+  PRIMARY KEY (dept_no)
+);
+
 SELECT * FROM departments;
