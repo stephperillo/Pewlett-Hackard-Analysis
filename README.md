@@ -50,7 +50,9 @@ Two additional queries or tables that may provide more insight into the upcoming
 
   Employees born in 1957 turn 65 this year, so it will be beneficial to examine this data as well in preparation. 
   
-  There are 36,606 current employees who were born between 1956 and 1957, including three current managers (a Finance manager, one Production manager, and one Development manager). 
+  There are 36,606 current employees who were born between 1956 and 1957, including three current managers (a Finance manager, one Production manager, and one Development manager). Unfortunately, these three managers does not manage either of the two departments (Human Resources and Sales) that would be losing a manager from the `retiring_titles` table (current employees who were born between 1952 and 1955). 
+  
+ ![Employees_born_between_1956_and_1957.png](https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/Employees_born_between_1956_and_1957.png)
   
 2. A query to find additional potential mentorship eligible employees who were born in the year 1958. 
 
