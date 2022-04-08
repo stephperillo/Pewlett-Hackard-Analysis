@@ -38,22 +38,29 @@ Four major findings from this query are:
 
 - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-In order to replace the number of retirees from this group who were born between 1952 and 1955, 
+In order to replace the number of retirees from this group who were born between 1952 and 1955, 72,458 roles will need to be filled. 
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-
+There are many more retirement-ready employees than employees who were born in 1965 (72,458 vs. 1,549). 
 
 Two additional queries or tables that may provide more insight into the upcoming "silver tsunami" include:
 
-1. A query to find the names and titles of employees who were born between 1956 and 1957
+1. A query to find additional potential mentor eligible employees who were born between 1956 and 1964.
 
-  Employees born in 1957 turn 65 this year, so it will be beneficial to examine this data as well in preparation. 
-  
-  There are 36,606 current employees who were born between 1956 and 1957, including three current managers (a Finance manager, one Production manager, and one Development manager). Unfortunately, these three managers does not manage either of the two departments (Human Resources and Sales) that would be losing a manager from the `retiring_titles` table (current employees who were born between 1952 and 1955). 
-  
- ![Employees_born_between_1956_and_1957.png](https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/Employees_born_between_1956_and_1957.png)
-  
-2. A query to find additional potential mentorship eligible employees who were born in the year 1958. 
+Because there are only 1,549 current employees eligible for the mentorship program and 72,458 retirees, it is helpful to see if the mentorship eligibility can be expanded.
 
-Another point to note is that the initial mentorship eligibility query does not take into account the employee's length of employment, only if the employee was born in the year 1965. In this data set of current employees, the most recent employment dates occur in the year 2000, however, realistically it is possible that an employee may be hired one year ago or less. The employee's age should not necessarily 
+![Mentorship eligibility_1966_to_1964)(https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility_1966_to_1964.png)
+
+There are currently 166,117 employees who were born between 1956 and 1964.
+There are 18 current managers who were born between 1956 and 1964. 
+
+![mentor_counts_1966_to_1964)(https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/mentor_counts_1966_to_1964.png)
+
+Expanding the mentor range to include some of this group of employees would help lighten the load for all mentors.
+
+2. Another useful query is to 
+
+  There are two departments (Human Resources and Sales) that would be lose a manager from group of current employees who were born between 1952 and 1955.
+ 
+Another point to note is that the initial mentorship eligibility query does not take into account the employee's length of employment, only if the employee was born in the year 1965. In this data set of current employees, the most recent employment dates occur in the year 2000, however, realistically it is possible that an employee may have been hired not too long ago, i.e. less than a one year ago. This is another factor to consider in future queries. 
