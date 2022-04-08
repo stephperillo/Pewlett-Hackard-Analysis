@@ -38,7 +38,7 @@ Four major findings from this query are:
 
 - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-In order to replace the umber of retirees from this group who were born between 1952 and 1955, 
+In order to replace the number of retirees from this group who were born between 1952 and 1955, 
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
@@ -49,4 +49,5 @@ Two additional queries or tables that may provide more insight into the upcoming
 1. A query to find the names and titles of employees who were born between 1955 and 1957
 
   Employees born in 1957 turn 65 this year, so it will be beneficial to examine this data as well in preparation. 
+  
 2. 
