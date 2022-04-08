@@ -47,5 +47,6 @@ In order to replace the umber of retirees from this group who were born between 
 Two additional queries or tables that may provide more insight into the upcoming "silver tsunami" include:
 
 1. A query to find the names and titles of employees who were born between 1955 and 1957
+
   Employees born in 1957 turn 65 this year, so it will be beneficial to examine this data as well in preparation. 
-3. 
+2. 
