@@ -46,8 +46,10 @@ In order to replace the number of retirees from this group who were born between
 
 Two additional queries or tables that may provide more insight into the upcoming "silver tsunami" include:
 
-1. A query to find the names and titles of employees who were born between 1955 and 1957
+1. A query to find the names and titles of employees who were born between 1956 and 1957
 
   Employees born in 1957 turn 65 this year, so it will be beneficial to examine this data as well in preparation. 
   
-2. 
+2. A query to find additional potential mentorship eligible employees who were born in the year 1958. 
+
+Another point to note is that the initial mentorship eligibility query does not take into account the employee's length of employment, only if the employee was born in the year 1965. In this data set of current employees, the most recent employment dates occur in the year 2000, however, realistically it is possible that an employee may be hired one year ago or less. The employee's age should not necessarily 
