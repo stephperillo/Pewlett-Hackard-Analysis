@@ -29,7 +29,7 @@ The following image shows the first five rows of this query:
 ![mentorship_elig.png](https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_elig.png)
 
 Four major findings from this query are:
-1. There are 15,549 current employees who are eligible to be mentored.
+1. There are 1,549 current employees who are eligible to be mentored.
 2. None of the eligible mentors (from this query) are currently managers.
 3. 
 4. 
@@ -49,6 +49,8 @@ Two additional queries or tables that may provide more insight into the upcoming
 1. A query to find the names and titles of employees who were born between 1956 and 1957
 
   Employees born in 1957 turn 65 this year, so it will be beneficial to examine this data as well in preparation. 
+  
+  There are 36,606 current employees who were born between 1956 and 1957, including three current managers (a Finance manager, one Production manager, and one Development manager). 
   
 2. A query to find additional potential mentorship eligible employees who were born in the year 1958. 
 
