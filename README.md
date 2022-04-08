@@ -30,7 +30,7 @@ The following image shows the first five rows of this query:
 
 Four major findings from this query are:
 1. There are 1,549 current employees who are eligible to be mentored.
-2. None of the eligible mentors (from this query) are currently managers.
+2. None of the mentorship-eligible employees (from this query who were born in 1965) are currently managers.
 3. 
 4. 
 
@@ -50,12 +50,12 @@ Two additional queries or tables that may provide more insight into the upcoming
 
 Because there are only 1,549 current employees eligible for the mentorship program and 72,458 retirees, it is helpful to see if the mentorship eligibility can be expanded.
 
-![Mentorship eligibility_1966_to_1964)(https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility_1966_to_1964.png)
+![Mentorship eligibility_1966_to_1964](https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility_1966_to_1964.png)
 
 There are currently 166,117 employees who were born between 1956 and 1964.
 There are 18 current managers who were born between 1956 and 1964. 
 
-![mentor_counts_1966_to_1964)(https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/mentor_counts_1966_to_1964.png)
+![mentor_counts_1966_to_1964](https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/mentor_counts_1966_to_1964.png)
 
 Expanding the mentor range to include some of this group of employees would help lighten the load for all mentors.
 
