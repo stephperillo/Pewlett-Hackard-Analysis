@@ -30,7 +30,7 @@ The following image shows the first five rows of this query:
 
 Four major findings from this query are:
 1. There are 1,549 current employees who are eligible to be mentored.
-2. None of the mentorship-eligible employees (from this query who were born in 1965) are currently managers.
+2. None of the mentorship-eligible employees (from this query of employees who were born in 1965) are currently managers.
 3. 
 4. 
 
@@ -47,6 +47,7 @@ There are many more retirement-ready employees than employees who were born in 1
 Two additional queries or tables that may provide more insight into the upcoming "silver tsunami" include:
 
 1. A query to find additional potential mentor eligible employees who were born between 1956 and 1964.
+2. A query to see if any of these employees are currrent managers.
 
 Because there are only 1,549 current employees eligible for the mentorship program and 72,458 retirees, it is helpful to see if the mentorship eligibility can be expanded.
 
@@ -59,8 +60,8 @@ There are 18 current managers who were born between 1956 and 1964.
 
 Expanding the mentor range to include some of this group of employees would help lighten the load for all mentors.
 
-2. Another useful query is to 
-
-  There are two departments (Human Resources and Sales) that would be lose a manager from group of current employees who were born between 1952 and 1955.
+There are two departments (Human Resources and Sales) that would be lose a manager from group of current employees who were born between 1952 and 1955. 
+  
+  We can conduct additional queries to determine if any of the current employees who were born between 1956 and 1964 are managers in Human Resources or Sales to see if there is  
  
 Another point to note is that the initial mentorship eligibility query does not take into account the employee's length of employment, only if the employee was born in the year 1965. In this data set of current employees, the most recent employment dates occur in the year 2000, however, realistically it is possible that an employee may have been hired not too long ago, i.e. less than a one year ago. This is another factor to consider in future queries. 
