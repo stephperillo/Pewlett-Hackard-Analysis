@@ -35,7 +35,7 @@ This is a count of their current titles:
 Four major findings from this query are:
 1. There are 1,549 current employees who are eligible to be mentored.
 2. None of the mentorship-eligible employees (from this query of employees who were born in 1965) are currently managers.
-3. The two positions that these the mentorship-eligible employees (a.k.a. potential "mentees") are Staff and Senior Engineer.
+3. The two positions that these the mentorship-eligible employees (a.k.a. potential "mentees") are Staff and Senior Engineer. The fact that there are a lot of Senior Staff and Senior Engineers in this group is a good.
 4. There are not nearly enough mentees in this group to replace all the retirees.
 
 ## Summary
