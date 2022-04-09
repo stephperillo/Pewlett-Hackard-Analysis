@@ -28,11 +28,15 @@ In this analysis, I found the current employees who were born in the year 1965.
 The following image shows the first five rows of this query:
 ![mentorship_elig.png](https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_elig.png)
 
+This is a count of their current titles:
+
+![mentee_titles.png](https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/mentee_titles.png)
+
 Four major findings from this query are:
 1. There are 1,549 current employees who are eligible to be mentored.
 2. None of the mentorship-eligible employees (from this query of employees who were born in 1965) are currently managers.
-3. 
-4. 
+3. The two positions that these the mentorship-eligible employees (a.k.a. potential "mentees") are Staff and Senior Engineer.
+4. There are not nearly enough mentees in this group to replace all the retirees.
 
 ## Summary
 
@@ -62,6 +66,6 @@ Expanding the mentor range to include some of this group of employees would help
 
 There are two departments (Human Resources and Sales) that would be lose a manager from group of current employees who were born between 1952 and 1955. 
   
-  We can conduct additional queries to determine if any of the current employees who were born between 1956 and 1964 are managers in Human Resources or Sales to see if there is  
+We can also conduct additional queries to determine if any of the current employees who were born between 1956 and 1964 are managers in Human Resources or Sales.  
  
 Another point to note is that the initial mentorship eligibility query does not take into account the employee's length of employment, only if the employee was born in the year 1965. In this data set of current employees, the most recent employment dates occur in the year 2000, however, realistically it is possible that an employee may have been hired not too long ago, i.e. less than a one year ago. This is another factor to consider in future queries. 
