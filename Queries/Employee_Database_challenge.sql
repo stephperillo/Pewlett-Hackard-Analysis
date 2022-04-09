@@ -41,6 +41,37 @@ INNER JOIN titles as ti
 ON e.emp_no = ti.emp_no
 INNER JOIN dept_emp as de
 ON e.emp_no = de.emp_no
-WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+WHERE (birth_date BETWEEN '1955-01-01' AND '1955-12-31')
     AND de.to_date = '9999-01-01'
 ORDER BY emp_no;
+
+-- Additional queries:
+
+-- Mentee titles (employees born in 1965)
+SELECT COUNT(men.title) AS Employee_Count, men.title 
+FROM mentorship_eligibility AS men
+GROUP BY men.title
+ORDER BY Employee_Count DESC;
+
+-- Employees born between 1956 and 1964
+SELECT DISTINCT ON (e.emp_no) e.emp_no,
+    e.first_name,
+    e.last_name,
+    e.birth_date,
+    de.from_date,
+    de.to_date,
+    ti.title
+INTO mentorship_eligibility_1956_to_1964
+FROM employees as e
+INNER JOIN titles as ti 
+ON e.emp_no = ti.emp_no
+INNER JOIN dept_emp as de
+ON e.emp_no = de.emp_no
+WHERE (birth_date BETWEEN '1956-01-01' AND '1964-12-31')
+    AND de.to_date = '9999-01-01';
+
+-- Mentees born between 1956 to 1964 Titles
+SELECT COUNT(me.title) AS Employee_Count, me.title 
+FROM mentorship_eligibility_1956_and_1964 AS me
+GROUP BY me.title
+ORDER BY Employee_Count DESC;
