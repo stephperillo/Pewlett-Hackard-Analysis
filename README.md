@@ -62,10 +62,8 @@ There are 18 current managers who were born between 1956 and 1964.
 
 ![mentor_counts_1966_to_1964](https://github.com/stephperillo/Pewlett-Hackard-Analysis/blob/main/Data/mentor_counts_1966_to_1964.png)
 
-Expanding the mentor range to include some of this group of employees would help lighten the load for all mentors.
-
-There are two departments (Human Resources and Sales) that would be lose a manager from group of current employees who were born between 1952 and 1955. 
+Additionally, there are two departments (Human Resources and Sales) that may lose a manager from the group of employees who were born between 1952 and 1955. 
   
-We can also conduct additional queries to determine if any of the current employees who were born between 1956 and 1964 are managers in Human Resources or Sales.  
+We can also conduct additional queries to determine if any of the current employees who were born between 1956 and 1964 are managers or employees in Human Resources or Sales.  
  
 Another point to note is that the initial mentorship eligibility query does not take into account the employee's length of employment, only if the employee was born in the year 1965. In this data set of current employees, the most recent employment dates occur in the year 2000, however, realistically it is possible that an employee may have been hired not too long ago, i.e. less than a one year ago. This is another factor to consider in future queries. 
